@@ -4,7 +4,8 @@ import {getData} from '../utils/api.js';
 import {debounce} from '../utils/util.js';
 import {showMessage} from '../utils/messages.js';
 
-const DATA_URL = 'https://29.javascript.pages.academy/kekstagram/data';
+//const DATA_URL = 'https://29.javascript.pages.academy/kekstagram/data';
+const DATA_URL = 'https://32.javascript.htmlacademy.pro/kekstagram/data';
 const Error = {
   STATE: 'error',
   MESSAGE: 'Ошибка загрузки. Попробуйте обновить страницу',
